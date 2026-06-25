@@ -9,3 +9,6 @@ version = "0.0.1"
 dependencies = [
   "numpy",
 ]
+
+[tool.setuptools]
+py-modules = ["solid_octo_fishstick"]
