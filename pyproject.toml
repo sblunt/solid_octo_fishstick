@@ -4,11 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "solid_octo_fishstick"
-version = "0.0.2"
+version = "0.0.4"
 
 dependencies = [
   "numpy",
 ]
 
 [tool.setuptools]
-py-modules = ["solid_octo_fishstick"]
+packages = ["solid_octo_fishstick"]
